@@ -1,34 +1,28 @@
 package cz.app.restauracka.demo.logika.obj;
 
-import java.util.Set;
-
 public class Stul {
 
-    private int idStolu;
-    private Objednavka objednavka;
-    private Set<Stul> Stoly;
+    private int id;
+    private int pocetMist;
 
-    public int getIdStolu() {
-        return idStolu;
+    public Stul(int id, int pocetMist) {
+        this.id = id;
+        this.pocetMist = pocetMist;
     }
 
-    public void setIdStolu(int idStolu) {
-        this.idStolu = idStolu;
+    int getId() {
+        return id;
     }
 
-    public Objednavka getObjednavka() {
-        return objednavka;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setObjednavka(Objednavka objednavka) {
-        this.objednavka = objednavka;
+    public int getPocetMist() {
+        return pocetMist;
     }
 
-    public Set<Stul> getStoly() {
-        return Stoly;
-    }
-
-    public void setStoly(Set<Stul> stoly) {
-        Stoly = stoly;
+    public void setPocetMist(int pocetMist) {
+        this.pocetMist = pocetMist;
     }
 }
