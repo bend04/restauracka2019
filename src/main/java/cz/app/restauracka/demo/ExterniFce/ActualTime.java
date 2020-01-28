@@ -12,6 +12,7 @@ public class ActualTime {
         return sdf.format(cal.getTime());
     }
 
+
     public String getCurrentDate() {
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
