@@ -36,7 +36,6 @@ public class VarovaniController {
         stage.setTitle("Register Form");
         stage.show();
     }
-
     public void setVarovaniText(String text) {
         varovaniText.setText(text);
     }

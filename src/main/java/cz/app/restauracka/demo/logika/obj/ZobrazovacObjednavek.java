@@ -17,6 +17,7 @@ public class ZobrazovacObjednavek {
         return nazevJidla;
     }
 
+
     public int getMnozstviJidla() {
         return mnozstviJidla;
     }

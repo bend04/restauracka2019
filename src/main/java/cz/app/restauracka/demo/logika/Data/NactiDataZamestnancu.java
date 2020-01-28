@@ -23,7 +23,6 @@ public class NactiDataZamestnancu {
     private Gson gson = new Gson();
 
     public void loadData() {
-
         try {
             List<String> lines = Files.readAllLines(Paths.get(SAVE_FILE_NAME));
             String jsonRaw = String.join("\n", lines);

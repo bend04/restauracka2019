@@ -40,6 +40,7 @@ public class GUI extends Application {
         stage.show();
     }
 
+
     @Override
     public void stop() {
         this.applicationContext.close();

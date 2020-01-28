@@ -25,7 +25,6 @@ public class GUI_START extends Application {
                 .sources(RUN_CORE.class)
                 .run(args);
 
-
         OvladacData ovladacData = applicationContext.getBean(OvladacData.class);
         ovladacData.nactiData();
     }

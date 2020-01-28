@@ -54,6 +54,7 @@ public class PridejJidloController implements Initializable {
     private TableColumn<Jidlo, Integer> vytvorJidloTabulkaID = new TableColumn();
 
 
+
     private void startMain() {
         Stage stage = (Stage) buttonVytvor.getScene().getWindow();
 

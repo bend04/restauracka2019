@@ -16,7 +16,6 @@ public class UlozDataMenu {
     MenuJidla menuJidla;
     private Gson gson = new Gson();
 
-
     public void saveData() {
         String json = gson.toJson(menuJidla.getMenuSet());
         try {

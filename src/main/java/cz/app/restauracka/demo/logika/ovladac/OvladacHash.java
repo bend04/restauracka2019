@@ -23,6 +23,7 @@ public class OvladacHash {
                 hashtext = "0" + hashtext;
             }
 
+
             return hashtext;
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);

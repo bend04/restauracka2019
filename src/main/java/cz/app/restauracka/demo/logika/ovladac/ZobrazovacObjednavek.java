@@ -21,6 +21,7 @@ public class ZobrazovacObjednavek {
         return mnozstviJidla;
     }
 
+
     public int getCenaZaJednotku() {
         return cenaZaJednotku;
     }

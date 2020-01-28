@@ -28,6 +28,7 @@ public class TestovaciEntity {
     Zamestnanec adam = new Zamestnanec("Adam", "Rychlý", "adam12", 4, cz.app.restauracka.demo.logika.Pozice.Cisnik, 792, "aa@se.cz", "1234");
 
 
+
     Jidlo svickova = new Jidlo(1, "Svíčková", "Dobré jídlo", 100);
     Jidlo burger = new Jidlo(2, "Burger", "Dobré jídlo", 120);
     Jidlo rizek = new Jidlo(3, "Rizek", "Dobré jídlo", 110);

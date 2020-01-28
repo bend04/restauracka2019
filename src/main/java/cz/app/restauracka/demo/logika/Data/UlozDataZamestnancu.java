@@ -16,7 +16,6 @@ public class UlozDataZamestnancu {
     Zamestnanci zamestnanci;
     private Gson gson = new Gson();
 
-
     public void saveData() {
         String json = gson.toJson(zamestnanci.getZamestnanciSet());
         try {

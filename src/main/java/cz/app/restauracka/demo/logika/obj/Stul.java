@@ -22,6 +22,7 @@ public class Stul {
         return pocetMist;
     }
 
+
     public void setPocetMist(int pocetMist) {
         this.pocetMist = pocetMist;
     }

@@ -20,6 +20,7 @@ public class OvladacData {
     @Autowired
     NactiDataStolu nactiDataStolu;
 
+
     public void ulozData() {
         //TODO ulozit data objednavek
         ulozDataMenu.saveData();

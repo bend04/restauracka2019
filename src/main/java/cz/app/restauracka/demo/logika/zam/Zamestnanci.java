@@ -24,6 +24,7 @@ public class Zamestnanci {
         this.zamestnanciSet = zamestnanciSet;
     }
 
+
     public void vlozZamestnanceDoSetu(Zamestnanec zamestnanec) {
         zamestnanciSet.add(zamestnanec);
     }
