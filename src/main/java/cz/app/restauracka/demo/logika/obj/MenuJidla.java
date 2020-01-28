@@ -32,7 +32,6 @@ public class MenuJidla {
             if (jidlo.getNazev().equals(string)) {
                 return jidlo;
             }
-
         }
         return null;
     }

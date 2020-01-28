@@ -24,7 +24,6 @@ public class Stoly {
             }
         }
         return null;
-
     }
 
     public Set<Stul> getSetStolu() {

@@ -17,7 +17,6 @@ public class ObjednaneJidlo {
         stav = false;
     }
 
-
     public Jidlo getJidlo() {
         return jidlo;
     }

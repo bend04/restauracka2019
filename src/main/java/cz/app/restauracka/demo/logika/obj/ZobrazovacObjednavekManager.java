@@ -21,7 +21,6 @@ public class ZobrazovacObjednavekManager {
         setZobrazovanychJidel.remove(zobrazovacObjednavek);
     }
 
-
     public void vymazSetZobrazovanychJidel() {
         setZobrazovanychJidel.clear();
     }

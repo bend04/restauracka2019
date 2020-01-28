@@ -52,7 +52,6 @@ public class RegistraceController implements Initializable {
     @FXML
     private TableView tabulkaUzivatelu = new TableView<>();
 
-
     @FXML
     private TableColumn<Zamestnanec, String> registraceTabulkaJmeno = new TableColumn();
     @FXML

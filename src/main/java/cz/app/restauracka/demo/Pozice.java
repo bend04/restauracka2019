@@ -5,5 +5,4 @@ public enum Pozice {
     Cisnik,
     Kuchar,
     Boss
-
 }

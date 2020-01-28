@@ -1,7 +1,6 @@
 package cz.app.restauracka.demo.logika.obj;
 
 public class Jidlo {
-
     private int id;
 
     private String nazev;

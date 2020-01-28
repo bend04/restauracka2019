@@ -16,6 +16,7 @@ public class UlozDataStolu {
     Stoly stoly;
     private Gson gson = new Gson();
 
+
     public void saveData() {
         String json = gson.toJson(stoly.getSetStolu());
         try {

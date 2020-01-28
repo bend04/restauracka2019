@@ -45,7 +45,6 @@ public class LoginController implements Initializable {
     @FXML
     private Text loginInfoText;
 
-
     public LoginController() {
         System.out.println("generuju");
     }

@@ -23,7 +23,6 @@ public class Objednavky {
         setObjednanychJidel.remove(objednaneJidlo);
     }
 
-
     public Set<ObjednaneJidlo> getObjednaneJidloPodleStolu(int stul) {
         Set<ObjednaneJidlo> setJidelUStolu = new HashSet<>();
 

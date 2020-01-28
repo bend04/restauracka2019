@@ -32,7 +32,6 @@ public class Zamestnanec {
         this.heslo = heslo;
     }
 
-
     public String getJmeno() {
         return jmeno;
     }

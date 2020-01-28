@@ -24,7 +24,6 @@ public class OvladacZam {
     }
 
 
-
     public void prijmoutObjednavku() {
 
     }
